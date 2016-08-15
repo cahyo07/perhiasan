@@ -1,0 +1,171 @@
+.lightBgHead{
+    background-color: rgba(255, 255, 255, 0.44);
+}
+
+.fontBold{
+	font-weight: 700;
+}
+
+.logo{
+	width: 100%;
+    max-width: 70%;
+}
+
+.bg-lyr2{
+	background-image: url('../images/lyr2.jpg');
+    background-repeat: no-repeat;
+}
+
+.lyr2Head{
+	top: 65px;
+}
+
+.lyr2SubHead{
+	top: 59px;
+}
+
+.lyr2SubHead p{
+	font-size: 19px;
+    text-align: justify;
+    line-height: 35px;
+    color: #808284;
+}
+
+.tittle-lyr2{
+	color: #808284;
+    font-size: 40px;
+}
+
+.span-lyr2{
+	font-weight:500; 
+	font-size: 50pt;
+    position: relative;
+    left: 9px;
+    top: -4px;
+    color: #808284;
+}
+
+.imgThumb{
+	width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+
+.tittleBanner{
+	font-weight: 700;
+    font-size: 50px;
+}
+
+.bgNews{
+	background-color: #d9ecd4;
+}
+
+.quoteText{
+	font-family: 'goudosbI';
+	text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+	font-size: 18pt;
+    color: #808284;
+    line-height: 35px;
+}
+
+.color-regular{
+	color: #808284;
+}
+
+.color-white{
+	color: #ffffff;
+}
+
+.bg-foot{
+	background-color: #f3f3f4;
+}
+
+.fontHeadSingle{
+	font-family: 'bickhamSemi';
+	font-weight: bold;
+	color: #3a3737;
+	position: relative;
+    padding-right: 4px;
+}
+
+.fontbickhahmReg{
+	font-family: 'bickhamReg';
+	font-weight: normal;
+}
+
+.fontHeight{
+	font-size: 20px !important;
+}
+
+.cont-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+
+    .bg-lyr2{
+   		background-color: white;
+   		background-image: none;
+	}
+
+	.lyr2Head {
+    	top: -80px;
+	}
+
+	.fbSmall{
+		position: relative;
+	    top: 78px;
+	    left: -190px;
+	}
+
+	.instaSmall{
+	    position: relative;
+	    top: 55px;
+	    left: -190px;
+	}
+}
+
+@media (max-width: 320px) {
+
+	.fontHeight {
+	    font-size: 18px !important;
+	}
+
+	.tittle-lyr2 {
+	    color: #808284;
+	    font-size: 26px;
+	    text-align: center;	    
+	}
+
+	.span-lyr2 {
+	    font-size: 34pt;
+	    left: 6px;
+	}
+
+	.lyr2SubHead p {
+	    font-size: 15px;
+	}
+
+	.lyr2SubHead {
+	    top: 0;
+	}
+
+	.fbSmall {
+	    position: relative;
+	    top: -20px;
+	    left: 0;
+	    width: 62%;
+	}
+
+	.instaSmall {
+	    position: relative;
+	    top: -52px;
+	    left: 0;
+	    width: 65%;
+	}
+
+}

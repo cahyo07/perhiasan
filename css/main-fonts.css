@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'montserratRegular';
+    src: url('../fonts/montserrat/Montserrat-Light.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'montserratRegular';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/montserrat/Montserrat-Bold.otf');
+}
+
+
+@font-face {
+    font-family: 'goudosbB';
+    font-style: normal;
+    src: url('../fonts/goudosb/GOUDOSB.TTF');
+}
+
+@font-face {
+    font-family: 'goudosbI';
+    font-weight: lighter;
+    src: url('../fonts/goudosb/GOUDOSI.TTF');
+}
+
+@font-face {
+    font-family: 'bickhamSemi';
+    font-style: italic;
+    font-weight: 700;
+    src: url('../fonts/bickham/BickhamScriptPro-Semibold.otf');
+}
+
+@font-face {
+    font-family: 'bickhamReg';
+    font-style: italic;
+    font-weight: 700;
+    src: url('../fonts/bickham/BickhamScriptPro-Regular.otf');
+}
+
+
+
